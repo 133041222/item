@@ -1,0 +1,258 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+body{
+	background: #F5F6FA;
+}
+
+
+.header{
+	width: 100%;
+	height: 1.32rem;
+	background: #0078E6;
+	text-align: center;
+	overflow: hidden;
+}
+.header .pic8{
+	width: 100%;
+}
+.header .headerleft{
+	width:50%;
+	margin: 0.1rem auto;
+	overflow: hidden;
+}
+
+ .headerleft img{
+ 	display: block;
+ 	width: 0.7rem;
+ 	height: 0.67rem;
+    float: left;
+    margin-left: 0.7rem;
+    padding-top: 0.1rem;
+}
+.headerleft h3{
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.7rem;
+}
+.banner{
+	overflow: hidden;
+	width:100%;
+	height: 2.81rem;
+}
+.banner img{
+	width: 100%;
+}
+/*banner图完结*/
+
+.middle{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+/*	flex-wrap:wrap;*/
+	justify-content:space-around;
+	margin-top: 0.3rem;
+	background: #F5F6FA;
+}
+.middle .item{
+	overflow: hidden;
+	border-radius: 0.05rem;
+	margin-right:0.05rem;
+	text-align: center;
+}
+
+.middle .item img{
+	width: 1.57rem;
+	height: 1.57rem;
+}
+
+
+.item a{
+	text-decoration: none;
+	color:black;
+}
+
+.item p{
+	font-size: 0.2rem;
+	font-weight: 500;
+}
+
+.middle1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-top: 0.3rem;
+	background: #F5F6FA;
+}
+
+.middle1 .item{
+	overflow: hidden;
+
+	border-radius: 0.1rem;
+	margin-right:0.05rem;
+}
+.middle1 .item img{
+	width: 1.57rem;
+	height: 1.57rem;
+}
+
+.fuwu{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+	margin-top:0.1rem;
+	background: #fff;
+	text-align: center;	
+}
+
+
+.fuwu img{
+	width: 1.72rem;
+	height: 1.8rem;
+}
+.fuwu .ti{
+	font-size: 0.25rem;
+	color: #1378BA;
+	padding-bottom: 0.1rem;
+	padding-top: 0.15rem;
+	border-bottom: 0.02rem solid #E8E8E8;
+}
+
+.fuwu .jian{
+	width: 50%;
+	float: left;
+    overflow: hidden;
+    border-right: 0.02rem solid #E8E8E8;
+}
+.jian .kang{
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.4rem;
+}
+.kang  a{
+		font-size: 0.2rem;
+	text-decoration: none;
+	color: black;
+}
+.kang h3{
+	font-size: 0.2rem;
+	padding-bottom: 0.1rem;
+}
+.kang p{
+	font-size: 0.15rem;
+	color: #999999;
+}
+
+.fuwu .jian1{
+	width: 50%;
+	float: right;
+    overflow: hidden;
+    border-right: 0.02rem solid #E8E8E8;
+}
+
+.jian1 .kang{
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.4rem;
+}
+.kang h3{
+	font-size: 0.2rem;
+}
+.kang p{
+	font-size: 0.15rem;
+	color: #999999;
+}
+.mian{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	padding-bottom: 0.1rem;
+
+}
+
+
+.mian img{
+	width: 0.76rem;
+	height: 0.6rem;
+}
+.mian .shi{
+	width: 33.33%;
+	padding-top: 0.1rem;
+	float: left;
+	border-right: 0.02rem solid #E8E8E8;
+	border-top:0.02rem solid #E8E8E8;
+}
+.shi img{
+	float: left;
+	padding-left: 0.2rem;
+	padding-right: 0.1rem;
+}
+
+.shi .ting h3{
+	font-size: 0.2rem;
+}
+.shi .ting p{
+	font-size: 0.15rem;
+	color: #999999;
+}
+
+
+.cha{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	background: #fff;
+	margin-top: 0.2rem;
+	padding: 0.1rem 0rem;
+	margin-bottom: 0.4rem;
+	
+}
+.cha .yu{
+	width: 30%;
+	padding-top: 0.1rem;
+	float: left;
+}
+
+.yu img{
+    width: 0.8rem;
+    height: 0.8rem,;
+	float: left;
+	padding-top: 0.15rem;
+	padding-left: 0.2rem;
+	padding-right: 0.1rem;
+}
+
+.yu .ting h3{
+	padding-top: 0.25rem;
+	font-size: 0.2rem;
+}
+.yu1{
+	width: 30%;
+	margin: 0 auto;
+	background: #FF7E00;
+	border-radius:0.1rem;
+}
+.yu1 img{
+	float: left;
+	padding-top: 0.05rem;
+	padding-left: 0.05rem;
+	padding-right: 0.1rem;
+}
+.yu1 h2{
+	font-size: 0.2rem;
+	color: #fff;
+	padding-top: 0.4rem;
+}

@@ -1,0 +1,211 @@
+body{
+	background: #F5F6FA;
+}
+
+
+.header{
+	width: 100%;
+	height: 1.32rem;
+	background: #0078E6;
+	text-align: center;
+	overflow: hidden;
+}
+.header .pic8{
+	width: 100%;
+}
+.header .headerleft{
+	width:50%;
+	margin: 0.1rem auto;
+	overflow: hidden;
+}
+
+ .headerleft img{
+ 	display: block;
+ 	width: 0.7rem;
+ 	height: 0.67rem;
+    float: left;
+    margin-left: 0.7rem;
+    padding-top: 0.1rem;
+}
+.headerleft h3{
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.7rem;
+}
+.banner{
+	overflow: hidden;
+	width:100%;
+	height: 2.81rem;
+}
+
+
+.banner img{
+	width: 100%;
+}
+
+
+.xueyuan{
+	width: 100%;
+	height: 0.81rem;
+	background: #F5F6FA;
+	line-height: 0.81rem;
+	box-sizing: border-box;
+	padding-left:0.25rem;
+	margin-bottom: 0.2rem;
+}
+.xueyuan .yuan{
+	text-decoration: none;
+	color: black;
+	font-weight: 650;
+}
+.xueyuan .yuan span{
+	font-size: 0.22rem;
+}
+
+
+
+
+.bigbox{
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	margin: 0rem auto;
+}
+
+.bigbox .smallbox{
+	width: 0.05rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin-top: 0.35rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.bigbox .smallbox1{
+	width: 92%;
+	height: 0.4rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	font-weight: bold;
+	margin-bottom: 0.1rem;
+	border-bottom: 0.02rem dashed #9B9B9B;
+}
+ .smallbox1 p{
+ 	font-size: 0.2rem;
+ }
+.bigbox .wenzhang{
+	height: auto;
+	box-sizing: border-box;
+	padding: 0.2rem 0.1rem 0.1rem  0.44rem;
+	font-size: 0.2rem;
+	color: #666666;
+	
+}
+
+.wenhua{
+	width: 95%;
+	height:auto;
+	background: #fff;
+	margin: 0 auto;	
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+
+.wenhua .smallbox{
+	width: 0.05rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin-top: 0.35rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.wenhua .smallbox1{
+	width: 92%;
+	height: 0.4rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	font-weight: bold;
+	border-bottom: 0.02rem dashed #9B9B9B;
+}
+ .smallbox1 p{
+ 	font-size: 0.2rem;
+}
+.wenhua .tubiao{
+	
+	text-align: center;
+}
+.wenhua .tubiao img{
+	padding:0.5rem 0.2rem ;
+
+	width: 1.36rem;
+	height: 1.33rem;	
+}
+
+.linian{
+	width: 95%;
+	height:auto;
+	background: #fff;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+
+.linian .smallbox{
+	width: 0.05rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin-top: 0.35rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.linian .smallbox1{
+	width: 92%;
+	height: 0.4rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	font-weight: bold;
+	margin-bottom: 0.1rem;
+	border-bottom: 0.02rem dashed #9B9B9B;
+}
+ .smallbox1 p{
+ 	font-size: 0.2rem;
+}
+
+.linian .zeren{
+	margin-left: 0.41rem;
+	font-size: 0.2rem;
+	margin-top: 0.1rem;
+	padding-bottom: 0.3rem;
+}
+
+.baoming{
+	width: 100%;
+	text-align: center;
+}
+.baoming img{
+	width: 1.75rem;
+	height: 1.72rem;
+    margin-top: 0.3rem;
+}
+
+.jiewei{
+	width: 100%;
+	height: 0.9rem;
+	text-align: center;
+
+}
+.jiewei p{
+	font-size: 0.2rem;
+	color: #666666;
+	box-sizing: border-box;
+	padding-top: 0.2rem;
+	padding-bottom:0.1rem;
+}
+.jiewei span{
+	font-size: 0.2rem;
+	color: #666666;
+	box-sizing: border-box;
+}
